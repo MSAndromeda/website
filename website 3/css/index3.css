@@ -1,0 +1,17 @@
+#section1>div>h1 {
+    font-size: 7vw;
+}
+
+#section1>div>p {
+    font-size: 3vw;
+    /* font-family: 'Fredoka One', cursive; */
+}
+
+#section1>div {
+    width: 70%;
+    margin-left: 0px;
+}
+
+#section2 {
+    font-size: 3.5vw;
+}

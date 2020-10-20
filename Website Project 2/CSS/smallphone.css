@@ -1,0 +1,52 @@
+/* body {
+    background-color: blue;
+} */
+
+
+/* Nevigation Section  */
+
+#navbar ul li a {
+    font-size: 0.8rem;
+    padding: 0px 5px;
+}
+
+
+/* Home Section */
+
+#Home p {
+    font-size: 12px;
+}
+
+
+/* Services section  */
+
+#services-container {
+    height: 1126px;
+    position: relative;
+}
+
+#services .box p {
+    font-size: 12px;
+}
+
+
+/* Client Section  */
+
+
+/* Contact Section  */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.h-primary1 {
+    font-size: 2.1rem;
+}
+
+.h-secondary {
+    font-size: 1.2rem;
+}

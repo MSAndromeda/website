@@ -1,0 +1,16 @@
+#navbar2 ul li a {
+    margin-right: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    font-size: 1.9vw;
+}
+
+#section2 {
+    display: flex;
+    color: purple;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 1.8vw;
+}

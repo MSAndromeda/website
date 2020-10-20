@@ -1,0 +1,191 @@
+/* CSS Reset  */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: azure;
+}
+
+
+/* GRIDS */
+
+.container {
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-areas: 'navbar1 navbar2 navbar2 navbar3 ';
+    z-index: 1;
+}
+
+#navbar1 {
+    grid-area: navbar1;
+}
+
+#navbar2 {
+    grid-area: navbar2;
+}
+
+#navbar3 {
+    grid-area: navbar3;
+}
+
+
+/* .box {
+    border: 2px solid red;
+} */
+
+
+/* CSS STYLE  */
+
+#bcimg::before {
+    content: "";
+    position: absolute;
+    background: url("../img/assesories.jpg") no-repeat center center/cover;
+    /* background-color: rgb(198, 209, 97); */
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+#bcimg {
+    height: 750px;
+    position: relative;
+}
+
+#bclayer::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top right, #7104ff 16%, #005aff 43%);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#bclayer {
+    height: 750px;
+    position: relative;
+}
+
+#navbar1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    z-index: 1;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#navbar2 ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    font-size: 1.6vw;
+    z-index: 1;
+    color: azure;
+    font-family: 'Leckerli One', cursive;
+}
+
+#navbar2 ul li a:hover {
+    border-bottom: 2px solid blanchedalmond;
+    /* border-top: 2px solid blanchedalmond; */
+    border-radius: 10px;
+    background-color: rgb(120, 95, 233);
+    color: yellow;
+}
+
+#navbar2 ul li {
+    list-style: none;
+    /* border: 2px solid red; */
+    z-index: 1;
+}
+
+#navbar3 {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+    padding-right: 15px;
+    z-index: 1;
+}
+
+#button {
+    padding: 13px 37px 13px;
+    border-radius: 33px;
+    border: none;
+    background-color: hsl(0deg 100% 97% / 40%);
+    color: white;
+    z-index: 1;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#button:hover {
+    background-color: hsl(0deg 100% 97% / 70%);
+    color: #908f8f;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+
+#section1>div {
+    width: 31%;
+    margin-left: 300px;
+}
+
+#section1>div>h1 {
+    font-size: 3.4vw;
+    /* font-stretch: 100%; */
+    font-family: 'Piedra', cursive;
+}
+
+#section1>div>p {
+    font-size: 1.5vw;
+    font-family: 'Fredoka One', cursive;
+}
+
+#button1 {
+    padding: 10px 40px 10px;
+    border-radius: 33px;
+    border: none;
+    background-color: hsl(0deg 100% 97% / 89%);
+    color: rgb(44, 180, 243);
+    /* opacity: 0.8; */
+    z-index: 1;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#button1:hover {
+    background-color: hsl(0deg 100% 97% / 100%);
+    color: rgb(5, 155, 224);
+    padding: 10.5px 40.5px 10.5 px;
+}
+
+#section2 {
+    display: flex;
+    color: purple;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    font-size: 1.5vw;
+}
+
+#section2>p {
+    width: 44%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
